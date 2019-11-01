@@ -60,6 +60,8 @@ int main(int argc, char *argv[]){
 	cout<<"Final grade is:"<<getScore()<<endl;
 
 	typicalrun(inputfile,startTag,endTag,outputfile);
+
+	return -100;
 }
 
 
@@ -99,5 +101,6 @@ int typicalrun(string &inputfile,string &startTag,string &endTag,string &outputf
 
 	//dump to standard output
 	//dumpVecToStdOut(myStrings);
+	return -100;
 }
 
