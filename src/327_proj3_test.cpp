@@ -38,8 +38,8 @@ int main(int argc, char *argv[]){
 	vector<string> myStrings;
 	int iret = SUCCESS;
 
-	//TODO verify that correct number of params are entered
-	//TODO otherwise return output WRONG_NUMB_ARGS and return FAIL_WRONG_NUMBER_ARGS
+	//verify that correct number of params are entered
+	//otherwise return output WRONG_NUMB_ARGS and return FAIL_WRONG_NUMBER_ARGS
 	//expect progname infile passfile failfile   //program and 3 arguments, argc=4
 	if( argc != EXPECTED_NUMBER_ARGUMENTS ) {
 	   cout<< WRONG_NUMB_ARGS <<endl;
